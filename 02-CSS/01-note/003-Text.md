@@ -146,3 +146,10 @@
 - `1. normal="只在允许的断字点换行 浏览器保持默认处理"`
 
   `2. break-word="在长单词或URL地址内部进行换行"`
+
+```css
+overflow: hidden;
+
+white-speace: nowrap;
+text-overflow: ellipsis;
+```
