@@ -86,3 +86,17 @@
   `本意是清除溢出到盒子外面的文字 这一招，实际上生成了 BFC 生成了封闭空间`
 
   `6. 伪元素清除浮动`
+
+  ```css
+  ::after {
+      width: 0px;
+      height: 0px;
+  
+      content: "";
+  
+      display: block;
+      clear: both;
+
+      visibility: hidden;
+  }
+  ```
